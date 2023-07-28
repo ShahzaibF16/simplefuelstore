@@ -36,9 +36,10 @@ export function Layout({children, layout}) {
           </a>
         </div>
         {headerMenu && <Header title={layout.shop.name} menu={headerMenu} />}
-        <main role="main" id="mainContent" className="flex-grow">
+        {/* <main role="main" id="mainContent" className="flex-grow">
           {children}
-        </main>
+        </main> */}
+        <Heading>Testing Files</Heading>
       </div>
       {footerMenu && <Footer menu={footerMenu} />}
     </>
