@@ -4,6 +4,7 @@
   "sideEffects": false,
   "version": "2.0.0",
   "scripts": {
+    "start": "node --experimental-modules server.mjs",
     "dev": "shopify hydrogen dev",
     "build": "shopify hydrogen build",
     "preview": "npm run build && shopify hydrogen preview",

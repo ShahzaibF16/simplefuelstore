@@ -17,9 +17,8 @@
     "moduleResolution": "node",
     "baseUrl": ".",
     "paths": {
-      "~/*": [
-        "app/*"
-      ]
+      "~/*": ["app/*"], // Existing alias for ~
+      "@/*": ["app/*"] // Add a new alias for @
     }
   },
   "include": [
